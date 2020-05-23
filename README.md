@@ -24,4 +24,4 @@
 * от 320 до 768
 
 ### Figma 
-[Ссылка на макет в Figma] (https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile)
+[Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile)
