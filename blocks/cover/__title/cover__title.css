@@ -5,6 +5,13 @@
     margin: 0;
     max-width: 560px;
     z-index: 2;
-    text-decoration: none;
     color: #fff;
+}
+@media screen and (max-width: 510px) {
+.cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 288px;
+    margin-top: 16px;
+    }
 }

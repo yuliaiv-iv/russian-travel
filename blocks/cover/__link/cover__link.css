@@ -1,0 +1,23 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 245px;
+    z-index: 3;
+    text-decoration: none;
+}
+@media screen and (max-width: 1170px) {
+    .cover__link {
+        margin-top: 195px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .cover__link {
+        margin-top: 115px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .cover__link {
+        margin-top: 33px;
+    }
+} 

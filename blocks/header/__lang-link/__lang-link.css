@@ -6,6 +6,9 @@
     margin-left: 18px;
     transition: opacity .5s linear;
 }
-.header__lang-link:hover {
-    opacity: 0.6;
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.33;
+    }
 }

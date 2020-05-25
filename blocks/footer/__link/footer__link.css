@@ -6,6 +6,3 @@
     margin-right: 18px;
     transition: opacity .5s linear;
 }
-.footer__link:hover {
-    opacity: 0.6;
-}   

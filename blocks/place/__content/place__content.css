@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .place__content {
+        margin-top: 32px;
+    }
+}
