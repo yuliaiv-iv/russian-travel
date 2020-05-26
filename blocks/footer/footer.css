@@ -11,7 +11,7 @@
     margin-top: 92px;
     margin-bottom: 24px;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1279px) {
     .footer {
         width: calc(100% - 24px*2);
         margin-top: 88px;

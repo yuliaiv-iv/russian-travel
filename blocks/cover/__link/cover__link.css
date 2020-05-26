@@ -1,23 +1,29 @@
 .cover__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 245px;
-    z-index: 3;
+    background-image: url(../../../images/cover-train.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
     text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
-@media screen and (max-width: 1170px) {
-    .cover__link {
-        margin-top: 195px;
-    }
+.cover__link::before{
+    content: '';
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity .5s linear; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-@media screen and (max-width: 900px) {
-    .cover__link {
-        margin-top: 115px;
-    }
+.cover__link:hover::before{
+    opacity: 0.8;
 }
-@media screen and (max-width: 510px) {
-    .cover__link {
-        margin-top: 33px;
-    }
-} 

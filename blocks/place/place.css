@@ -6,28 +6,37 @@
 @import url(./__website/place__website.css);
 @import url(./__content/place__content.css);
 
-.place {
-    display: grid;
-    grid-auto-flow: column;
-    grid-column-gap: 40px;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: auto max-content;
+.place { 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-column-gap: 40px; 
+    grid-template-columns: repeat(auto-fit, minmax(100px, 460px) minmax(100px, 484px)); 
+    grid-template-rows: auto max-content; 
     margin: auto;
 }
 
-@media screen and (max-width: 1170px)  {
+@media screen and (max-width: 1279px)  {
     .place {
         grid-column-gap: 32px;
-        grid-template-columns: 440px 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 440px) minmax(100px, 456px));
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) {
     .place {
         grid-column-gap: 28px;
-        grid-template-columns: 340px 1fr;
+    }
+}
+@media screen and (max-width: 856px) {
+    .place {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 340px) minmax(100px, 352px));
     }
 }
 @media screen and (max-width: 767px) {
+    .place {
+        grid-column-gap: 12px;    
+    }
+}
+@media screen and (max-width: 495px) {
     .place {
         display: flex;
         flex-direction: column;

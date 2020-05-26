@@ -5,12 +5,12 @@
     display: grid;
     grid-row-gap: 80px;
 }
-@media screen and (max-width: 1170px)  {
+@media screen and (max-width: 1279px)  {
     .places {
         width: calc(100% - 48px*2);
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) {
     .places {
         margin-top: 88px;
         width: calc(100% - 24px*2);
@@ -19,8 +19,14 @@
 }
 @media screen and (max-width: 767px) {
     .places {
-        width: 100%;
-        grid-row-gap: 48px;
-        margin-top: 64px;
+        margin-top: 88px;
+        width: calc(100% - 12px*2);
     }
 }
+@media screen and (max-width: 495px) {
+    .places {
+        grid-row-gap: 48px;
+        width: 100%;
+    }
+}
+

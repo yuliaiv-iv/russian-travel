@@ -3,23 +3,23 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
 @import url(./__link/cover__link.css);
-.cover {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    min-height: 740px;
-    margin: auto;
-    margin-top: 92px;
-    max-width: 1184px;
-    text-align: center;
-}
+.cover { 
+    display: flex; 
+    flex-direction: column; 
+    position: relative; 
+    min-height: 740px; 
+    margin: auto; 
+    margin-top: 92px; 
+    max-width: 1184px; 
+    align-items: center; 
+} 
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) {
     .cover {
         min-height: 480px;
     }
@@ -30,4 +30,5 @@
         margin-top: 64px;
     }
 }
+
 

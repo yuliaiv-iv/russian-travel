@@ -10,13 +10,13 @@
     margin: 0 auto;
     margin-top: 56px;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1279px) {
     .lead {
         max-width: calc(100% - 48px*2);
         margin-top: 48px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .lead {
         max-width: 100%
     }
