@@ -40,6 +40,11 @@
 }
 @media screen and (max-width: 510px) {
     .cover__link {
+        min-height: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .cover__link {
         min-height: 200px;
     }
 }
