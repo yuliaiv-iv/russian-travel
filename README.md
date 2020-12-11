@@ -28,6 +28,6 @@
 Применен  шрифт ”Inter“, который можно бесплатно скачать по **[этой ссылке](https://rsms.me/inter)**
 Макет Figma можно посмотреть по **[ссылке](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile)**
 
-<a target="_blank" href="https://yuliaiv-iv.github.io/russian-travel">
+<a align="center" href="https://yuliaiv-iv.github.io/russian-travel" target="_blank">
   <img src="./public/altai-readme.jpg" alt="Алтай" />
 </a>
